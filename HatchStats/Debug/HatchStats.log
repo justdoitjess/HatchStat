@@ -1,24 +1,16 @@
-﻿Build started 2/7/2015 11:53:51 PM.
+﻿Build started 2/9/2015 10:50:43 PM.
      1>Project "C:\Users\Jessica\Documents\Visual Studio 2013\Projects\HatchStats\HatchStats\HatchStats.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CalculateStats.cpp main.cpp
          main.cpp
-     1>c:\users\jessica\documents\visual studio 2013\projects\hatchstats\hatchstats\calculatestats.h(58): error C2143: syntax error : missing ';' before '<'
-     1>c:\users\jessica\documents\visual studio 2013\projects\hatchstats\hatchstats\calculatestats.h(58): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-     1>c:\users\jessica\documents\visual studio 2013\projects\hatchstats\hatchstats\calculatestats.h(58): error C2238: unexpected token(s) preceding ';'
-     1>c:\users\jessica\documents\visual studio 2013\projects\hatchstats\hatchstats\calculatestats.h(12): error C2039: 'data' : is not a member of 'CalculateStats'
-                 c:\users\jessica\documents\visual studio 2013\projects\hatchstats\hatchstats\calculatestats.h(2) : see declaration of 'CalculateStats'
-     1>c:\users\jessica\documents\visual studio 2013\projects\hatchstats\hatchstats\calculatestats.h(12): error C2228: left of '.push_back' must have class/struct/union
-     1>c:\users\jessica\documents\visual studio 2013\projects\hatchstats\hatchstats\calculatestats.h(31): error C2065: 'data' : undeclared identifier
-     1>c:\users\jessica\documents\visual studio 2013\projects\hatchstats\hatchstats\calculatestats.h(31): error C2228: left of '.size' must have class/struct/union
-                 type is 'unknown-type'
-     1>c:\users\jessica\documents\visual studio 2013\projects\hatchstats\hatchstats\calculatestats.h(35): error C2065: 'data' : undeclared identifier
-     1>c:\users\jessica\documents\visual studio 2013\projects\hatchstats\hatchstats\calculatestats.h(42): error C2065: 'data' : undeclared identifier
-     1>c:\users\jessica\documents\visual studio 2013\projects\hatchstats\hatchstats\calculatestats.h(42): error C2228: left of '.size' must have class/struct/union
-                 type is 'unknown-type'
-     1>c:\users\jessica\documents\visual studio 2013\projects\hatchstats\hatchstats\calculatestats.h(51): error C2065: 'data' : undeclared identifier
-     1>Done Building Project "C:\Users\Jessica\Documents\Visual Studio 2013\Projects\HatchStats\HatchStats\HatchStats.vcxproj" (Build target(s)) -- FAILED.
+         CalculateStats.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jessica\Documents\Visual Studio 2013\Projects\HatchStats\Debug\HatchStats.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Jessica\Documents\Visual Studio 2013\Projects\HatchStats\Debug\HatchStats.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jessica\Documents\Visual Studio 2013\Projects\HatchStats\Debug\HatchStats.lib" /MACHINE:X86 Debug\CalculateStats.obj
+         Debug\main.obj
+         HatchStats.vcxproj -> C:\Users\Jessica\Documents\Visual Studio 2013\Projects\HatchStats\Debug\HatchStats.exe
+     1>Done Building Project "C:\Users\Jessica\Documents\Visual Studio 2013\Projects\HatchStats\HatchStats\HatchStats.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.70
+Time Elapsed 00:00:05.15

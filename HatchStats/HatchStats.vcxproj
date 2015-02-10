@@ -67,7 +67,11 @@
     <ClInclude Include="CalculateStats.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CalculateStats.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="RequirementsAndDesign.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

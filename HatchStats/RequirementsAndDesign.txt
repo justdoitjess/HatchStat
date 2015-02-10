@@ -1,0 +1,49 @@
+Jessica Hatch
+Date: February 10, 2015
+Class: 605.404 O-O Programming in C++
+
+Program: CalulateStats
+
+Requirements:
+1. Read in a list of integers from user
+2. calculate MEAN and STD DEV of list
+3. Output mean and std dev to console
+
+
+Design:
+main.cpp
+   Run the program, ask for user input to create a list of ints
+   create instance of CalculateStats class
+   call the member functions to calc mean and std dev
+   print mean and std dev
+
+CalculateStats.h
+   list of functions and member variables declare
+CalculateStats.cpp
+   bodies of member functions defined
+
+class CalculateStats
+Public Functions:
+   Constructor
+      CalculateStats()
+   Destructor
+      ~CalculateStats()
+   Add an integer value to the list of data
+      void addNumberToVector(double value)
+   Return the last calculated mean
+      double getMean()
+   Call to calculate the mean and 
+      Return the last calculated std dev
+         double getStdDev()
+
+Private Functions and Member Variables:
+   Calculate the mean of the data
+      void calculateMean()
+   Calculate the std dev of the data
+      void calculateStdDev()
+   Vector of integers
+      std::vector<int> data
+   Double value of the mean
+      double mean
+   Double value of the standard deviation
+      double stddev
